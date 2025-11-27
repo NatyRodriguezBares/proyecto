@@ -1,0 +1,1 @@
+Este proyecto es para crear una pagina web de venta de plantas.
