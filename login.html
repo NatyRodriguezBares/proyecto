@@ -5,10 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="./img/logo.jpg" alt="logo" class="logo" >
+        <a href="./index.html">
+        <img src="./img/logo.jpg" alt="logo" class="logo">
+        </a>
         <form action="./caracteristicas.html" method="GET" class="buscador">
             <input type="text" placeholder="Buscar..." name="Buscar" value="">
             <button type="submit">Buscar</button>
@@ -16,30 +21,45 @@
         <nav>
             <ul class="user-nav">
                 <li><a href="./index.html">Home</a></li>
-                <li><a href="./register.html">Registro</a></li>
+                <li><a href="./caracteristicas.html">Caracteristicas</a></li>
                 <li><a href="./contacto.html">Contacto</a></li>
                 <li><a href="./carrito.html">Carrito</a></li>
-                <li><a href="./caracteristicas.html">Caracteristicas</a></li>
+                <li><a href="./register.html">Registro</a></li>
                 <li><a href="./login.html">Login</a></li>
             </ul>
         </nav>
     </header>
     <section class="banner">
     </section>
-    <main></main>
+    <main>
+        <div class="login-cont">
+            <form action="./login.html" method="get" class="login-form">
+                <div class="input-group">
+                    <label for="correo">Usuario</label>
+                    <input type="email" name="correo" placeholder="Introduce tu correo" required>
+                </div>
+                <div class="input-group">
+                    <label for="">Contraseña</label>
+                    <input type="password" name="pass" placeholder="Introduce tu contraseña">
+                </div>
+                <button type="submit">Registrarse</button>
+            </form>
+        </div>
+    </main>
     <section class="banner">
     </section>
     <footer>
+        <a href="./index.html">
         <img src="./img/logo.jpg" alt="logo" class="logo">
+        </a>
         <p>&copy;2025 Todos los derechos reservados</p>
           <nav>
-            <ul class="user-nav-foot">
+            <ul class="user-nav">
                 <li><a href="#">Home</a></li>
                 <li><a href="./register.html">Registro</a></li>
                 <li><a href="./contacto.html">Contacto</a></li>
                 <li><a href="./carrito.html">Carrito</a></li>
                 <li><a href="./caracteristicas.html">Caracteristicas</a></li>
-                <li><a href="./login.html">Login</a></li>
             </ul>
         </nav>
     </footer>

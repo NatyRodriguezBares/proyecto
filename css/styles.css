@@ -13,6 +13,11 @@ ul, ol, li{
     list-style-type: none;
 }
 
+body {
+    font-family: 'Quicksand';
+    background-image: url(../img/56622529-spring-background.jpg);
+}
+
 header{
     display: flex;
     align-items: center;
@@ -24,7 +29,7 @@ header{
 .logo{
     width: 5%;
     border-radius: 20px;
-    min-width: 50px;
+    min-width: 70px;
     height: auto;
     border-radius: 20px;
 }
@@ -79,18 +84,19 @@ main{
     width: 75%;
 }
 
-
 .product h3{
     margin: 10px 0;
 }
 
 .product a{
     margin: 0 10px;
-    padding: 5px;
+    padding: 10px;
 }
 
 .product a:hover{
     background-color: rgb(43, 110, 60);
+    border-radius: 20px;
+    padding: 1px;
 }
 
 .banner{
@@ -137,11 +143,32 @@ main{
     margin-bottom: 10px;
 }
 
-.register-cont{
+.login-cont {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 60vh;
+}
+
+.login-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; 
+    text-align: center;
+    
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px; 
+    text-align: center;
 }
 
 .register-form {
@@ -150,15 +177,38 @@ main{
     border-radius: 10px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 400px; /* Limita el ancho del formulario */
+    max-width: 500px; 
     text-align: center;
-    
+    justify-content: center;
+    align-items: center;
 }
 
-.register-form h2 {
-    font-size: 2em;
+.register-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form h2 {
+    font-size: 1em;
     margin-bottom: 20px;
     color: #333;
+}
+
+textarea{
+    padding: 10px;
+    line-height: 1,6px;
+    margin-bottom: 15px;
+    max-width: 500px;
+    max-height: 700px;
+}
+
+.contac-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 /* Estilo para los grupos de input */
@@ -171,12 +221,15 @@ main{
     display: block;
     font-size: 1em;
     margin-bottom: 8px;
+    margin-top: 10px;
     color: #333;
 }
 
 .input-group input {
     width: 100%;
     padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 5px;
     font-size: 1em;
     border: 2px solid #ccc;
     border-radius: 8px;
@@ -184,7 +237,7 @@ main{
 }
 
 .input-group input:focus {
-    border-color: #4CAF50; /* Color verde al hacer focus en los inputs */
+    border-color: #4CAF50; /* Color verde al hacer pasar por los inputs */
     outline: none;
 }
 
@@ -195,7 +248,6 @@ button {
     padding: 12px;
     border: none;
     border-radius: 8px;
-    width: 50%;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
@@ -204,13 +256,26 @@ button:hover {
     background-color: #2ecc71;
 }
 
-/* Estilo para la validación de los inputs */
 input:invalid {
     border-color:#2ecc71 ;
 }
 
 input:valid {
     border-color: #2ecc71;
+}
+
+h2{
+    text-align: center;
+}
+
+textarea{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    border-color: #2ecc71;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    display: grid;
 }
 
 footer {
