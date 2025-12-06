@@ -11,68 +11,98 @@
 </head>
 <body>
     <header>
-        <a href="./index.html">
+    <a href="./index.html" class="logo-link">
         <img src="./img/logo.jpg" alt="logo" class="logo">
-        </a>
-        <form action="./caracteristicas.html" method="GET" class="buscador">
-            <input type="text" placeholder="Buscar..." name="Buscar" value="">
-            <button type="submit">Buscar</button>
-        </form>
-        <nav>
-            <ul class="user-nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="./caracteristicas.html">Caracteristicas</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-                <li><a href="./carrito.html">Carrito</a></li>
-                <li><a href="./register.html">Registro</a></li>
-                <li><a href="./login.html">Login</a></li>
-            </ul>
-        </nav>
-    </header>
+    </a>
+    <div class="store-name">
+        <h1>YUNAY PLANTAS</h1>
+        <p>Tu tienda online</p>
+    </div>
+
+    <form action="./caracteristicas.html" method="GET" class="buscador">
+        <input type="text" placeholder="Buscar..." name="Buscar" value="">
+        <button type="submit">Buscar</button>
+    </form>
+    <nav>
+        <ul class="user-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="./caracteristicas.html">Caracteristicas</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+            <li><a href="./carrito.html">Carrito</a></li>
+            <li><a href="./register.html">Registro</a></li>
+            <li><a href="./login.html">Login</a></li>
+        </ul>
+    </nav>
+</header>
     <section  class="banner">
     </section>
     <main>
         <section class="section-products">
-            <article class="product">
-                <h2>Producto 1</h2>
+            <article class="product" data-id="1" data-name="Begonia" data-price="20000" data-img="./img/Begonia.jpg">
+                <h2>Begonia</h2>
                 <img src="./img/Begonia.jpg" alt="Begonia en flor">
                 <p>La <strong>Begonia</strong> es una planta ornamental popular por sus hojas vibrantes y flores coloridas.</p>
                 <h3>$20.000</h3>
-                <a href="./caracteristicas.html" class="info">Más información</a>
-                <a href="./carrito.html" class="compra">Comprar</a>
+                <a href="./caracteristicas.html?id=1" class="info">Más información</a>
+                <a href="#" class="compra" data-nombre="Begonia" data-precio="20000" data-img="./img/Begonia.jpg">Comprar</a>
             </article>
-            <article class="product">
-                <h2>Producto 2</h2>
+            <article class="product" data-id="2" data-name="Hera pendente" data-price="20000" data-img="./img/Hera pendente.jpg">
+                <h2>Hera pendente</h2>
                 <img src="./img/Hera pendente.jpg" alt="Hera pendente">
                 <p>La <strong>Hera pendente</strong> es una planta trepadora de hojas perennes.</p>
                 <h3>$20.000</h3>
-                <a href="./caracteristicas.html" class="info">Más información</a>
-                <a href="./carrito.html" class="compra">Comprar</a>
+                <a href="./caracteristicas.html?id=2" class="info">Más información</a>
+                <a href="#" class="compra" data-nombre="Hera pendente" data-precio="20000" data-img="./img/Hera pendente.jpg">Comprar</a>
             </article>
-            <article class="product">
-                <h2>Producto 3</h2>
+            <article class="product" data-id="3" data-name="Jiboia" data-price="20000" data-img="./img/Jiboia.jpg">
+                <h2>Jibóia</h2>
                 <img src="./img/Jiboia.jpg" alt="Jiboia colgante">
                 <p>La <strong>Jibóia</strong>es una planta trepadora de hojas verdes y brillantes, originaria del sudeste asiático.</p>
                 <h3>$20.000</h3>
-                <a href="./caracteristicas.html" class="info">Más información</a>
-                <a href="./carrito.html" class="compra">Comprar</a>
+                <a href="./caracteristicas.html?id=3" class="info">Más información</a>
+                <a href="#" class="compra" data-nombre="Jiboia" data-precio="20000" data-img="./img/Jiboia.jpg">Comprar</a>
             </article>
-            <article class="product">
-                <h2>Producto 4</h2>
+            <article class="product" data-id="4" data-name="Maranta en maceta" data-price="20000" data-img="./img/maranta.jpg">
+                <h2>Maranta</h2>
                 <img src="./img/maranta.jpg" alt="Maranta en maceta">
                 <p>La <strong>Maranta</strong> es una planta tropical apreciada por sus hojas vibrantes y su fascinante patrón de colores.</p>
                 <h3>$20.000</h3>
-                <a href="./caracteristicas.html" class="info">Más información</a>
-                <a href="./carrito.html" class="compra">Comprar</a>
+                <a href="./caracteristicas.html?id=4" class="info">Más información</a>
+                <a href="#" class="compra" data-nombre="Maranta en maceta" data-precio="20000" data-img="./img/maranta.jpg">Comprar</a>
             </article>
-            <article class="product">
-                <h2>Producto 5</h2>
+            <article class="product" data-id="5" data-name="Mostera pequeña" data-price="20000" data-img="./img/mostera.jpg">
+                <h2>Monstera</h2>
                 <img src="./img/mostera.jpg" alt="Mostera pequeña">
                 <p>La <strong>Monstera</strong> es una planta tropical muy popular por desarrollar agujeros característicos en sus hojas.</p>
                 <h3>$20.000</h3>
-                <a href="./caracteristicas.html" class="info">Más información</a>
-                <a href="./carrito.html" class="compra">Comprar</a>
+                <a href="./caracteristicas.html?id=5" class="info">Más información</a>
+                <a href="#" class="compra" data-nombre="Mostera" data-precio="20000" data-img="./img/mostera.jpg">Comprar</a>
             </article>
+            <article class="product" data-id="6" data-name="lucky bambu" data-price="20000" data-img="./img/lucky bambu.jpg">
+                <h2>Lucky Bambu</h2>
+                <img src="./img/lucky bambu.jpg" alt="lucky bambu">
+                <p>La <strong>Lucky bambu</strong> es muy resistente y fácil de cuidar. Crece en agua o tierra. Ideal para interiores porque necesita poca luz.</p>
+                <h3>$20.000</h3>
+                <a href="./caracteristicas.html?id=6" class="info">Más información</a>
+                <a href="#" class="compra" data-nombre="lucky bambu" data-precio="20000" data-img="./img/mostera.jpg">Comprar</a>
+            </article>
+            <article class="product" data-id="7" data-name="pothus" data-price="20000" data-img="./img/pothus.jpg">
+                <h2>Pothus</h2>
+                <img src="./img/pothus.jpg" alt="pothus">
+                <p>El <strong>Pothus</strong> es una planta colgante muy popular. Tiene hojas verdes brillantes, crece rápido y soporta poca luz. Es perfecta para principiante.</p>
+                <h3>$20.000</h3>
+                <a href="./caracteristicas.html?id=7" class="info">Más información</a>
+                <a href="#" class="compra" data-nombre="pothus" data-precio="20000" data-img="./img/pothus.jpg">Comprar</a>
+            </article>
+            <article class="product" data-id="8" data-name="pothus" data-price="20000" data-img="./img/pothus.jpg">
+                <h2>Spatifilium</h2>
+                <img src="./img/spatifilium.jpg" alt="spatifilium">
+                <p>La <strong>spatifilium</strong> conocida como “Lirio de la paz”. Planta de interior con hojas verdes grandes y flores blancas..</p>
+                <h3>$20.000</h3>
+                <a href="./caracteristicas.html?id=8" class="info">Más información</a>
+                <a href="#" class="compra" data-nombre="spatifilium" data-precio="20000" data-img="./img/pothus.jpg">Comprar</a>
+            </article>
+
         </section>
 
         <section class="section-comments">
@@ -119,5 +149,6 @@
             </ul>
         </nav>
     </footer>
+    <script src="./js/index.js"></script>
 </body>
 </html>

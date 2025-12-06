@@ -1,1 +1,1 @@
-Este proyecto es para crear una pagina web de venta de plantas.
+Este proyecto es para crear una pagina web de venta de plantas. Arme index.html de maneras sencilla pero reconozco que CSS se me complico y seguro que hay alguna manera de hacerlo mas breve.....siempre se me dificulto. Trate de utilizar apis de plantas que no encontre asi que con la ayuda de la IA consegui armar el carrito, con las caracteristicas lo mismo. Algo muy personal que me ocurre cuando navego es que sin importar a donde salga la imagen del logo pueda clicearla e ir al home y asi lo hice.

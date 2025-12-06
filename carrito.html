@@ -14,6 +14,10 @@
         <a href="./index.html">
         <img src="./img/logo.jpg" alt="logo" class="logo">
         </a>
+        <div class="store-name">
+            <h1>YUNAY PLANTAS</h1>
+            <p>Tu tienda online</p>
+        </div>
         <form action="./caracteristicas.html" method="GET" class="buscador">
             <input type="text" placeholder="Buscar..." name="Buscar" value="">
             <button type="submit">Buscar</button>
@@ -32,7 +36,11 @@
     <section class="banner">
         
     </section>
-    <main></main>
+    <main>
+        <h1 class="carrito">Carrito de compras</h1>
+        <div id="carrito-container" class="carrito-cont"></div>
+        <button id="vaciarCarrito">Vaciar Carrito</button>
+    </main>
     <section class="banner">
     </section>
     <footer>
@@ -50,5 +58,6 @@
             </ul>
         </nav>
     </footer>
+    <script src="./js/carrito.js"></script>
 </body>
 </html>
